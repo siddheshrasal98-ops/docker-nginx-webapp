@@ -1,5 +1,4 @@
-# Docker Nginx WebApp
-
+# dockerized-nginx-webapp
 ## Project Overview
 
 This project demonstrates containerizing a simple static website using Docker and Nginx.
