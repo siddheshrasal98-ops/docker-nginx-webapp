@@ -38,6 +38,22 @@ docker-nginx-webapp/
 ├── docker-compose.yml
 └── README.md
 
+## How to Run
+
+Build the Docker image
+
+docker build -t nginx-webapp .
+
+Run the container
+
+docker run -d -p 80:80 nginx-webapp
+
+Using Docker Compose
+
+docker-compose up -d
+
+
+
 Future Improvements
 
 - Multi-stage Docker builds
